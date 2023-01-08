@@ -1,0 +1,43 @@
+h1 {
+	color: #eaecd4;
+}
+
+body {
+	background-color: #13131e;
+	color: #eaecd4;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+	color: #dd9049;
+	text-decoration: none;
+	/* background-color: #2b2926; */
+	background: #13131e;
+	transition: background 0.2s ease;
+	padding: 1px 3px;
+	font-style: italic;
+	font-style: bold;
+}
+
+a:hover {
+	background: #2b2926;
+}
+/* 
+h1 {
+	color: #eaecd4;
+}
+
+body {
+	background-color: #02111B;
+	color: #eaecd4;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+	color: #D0FCB3;
+	text-decoration: none;
+	background-color: #282b26;
+	padding: 1px 3px;
+	font-style: italic;
+	font-style: bold;
+} */
