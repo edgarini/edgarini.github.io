@@ -8,7 +8,7 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
+a.animated-link {
 	color: #dd9049;
 	text-decoration: none;
 	/* background-color: #2b2926; */
@@ -19,8 +19,37 @@ a {
 	font-style: bold;
 }
 
-a:hover {
+a.animated-link:hover {
 	background: #2b2926;
+	/* color: #13131e; */
+	/* background-color: #dd9049; */
+}
+
+.hidden-text {
+	/* color: #dd9049; */
+	color: #474963;
+	font-style: italic;
+	font-style: bold;
+}
+
+a.hidden-text {
+	/* color: #dd9049; */
+	/* color: #474963; */
+	color: #323a49;
+	transition: color 0.2s ease;
+	text-decoration: none;
+	/* background-color: #2b2926; */
+	background: #13131e;
+	transition: background 0.2s ease;
+	padding: 1px 3px;
+	font-style: italic;
+	font-style: bold;
+}
+
+a.hidden-text:hover {
+	/* background: #2b2926; */
+	background: #dd9049;
+	color: #13131e;
 }
 /* 
 h1 {
