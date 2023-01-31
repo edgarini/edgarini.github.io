@@ -1,3 +1,23 @@
+/* .imgContainer{
+    float:left;
+	text-align: center;
+}
+
+#images{
+	background-color: white;
+	text-align:center;
+} */
+
+.small_img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  #images{
+     text-align:center;
+  }
+
+
 h1 {
 	color: #eaecd4;
 }
